@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "518493756134",
+    "firebase_url": "https://fruits-and-vegetables-1f450.firebaseio.com",
+    "project_id": "fruits-and-vegetables-1f450",
+    "storage_bucket": "fruits-and-vegetables-1f450.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518493756134:android:bcd05d738ca51996",
+        "android_client_info": {
+          "package_name": "com.example.user2.fruitsvegetables"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "518493756134-iebqb0dubrp0b4rm1b54d4cm3qn997ho.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user2.fruitsvegetables",
+            "certificate_hash": "a160fc7230d9f24aaa95e685e1aeccbcb4ba0a14"
+          }
+        },
+        {
+          "client_id": "518493756134-6oja0kofrnlnq98gbcc0j1smjsct7c36.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZDLml6DCDhDgkf8u5O67iEHpqNaNIHyo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "518493756134-6oja0kofrnlnq98gbcc0j1smjsct7c36.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
