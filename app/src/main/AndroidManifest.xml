@@ -32,7 +32,11 @@
         <activity
             android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
             android:theme="@style/Base.Theme.AppCompat" />
-        <activity android:name="com.example.user2.PharmacyProduct.FruitDetials" />
+        <activity android:name="com.example.user2.PharmacyProduct.productDetail" />
+        <activity android:name="com.example.user2.PharmacyProduct.productLis" />
+        <activity android:name="com.example.user2.PharmacyProduct.CartActivity"/>
+        <activity android:name="com.example.user2.PharmacyProduct.MenuViewHolder"/>
+
     </application>
 
 </manifest>

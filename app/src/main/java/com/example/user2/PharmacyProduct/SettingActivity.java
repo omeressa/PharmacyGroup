@@ -1,5 +1,6 @@
 package com.example.user2.PharmacyProduct;
 
+
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.net.Uri;
@@ -13,6 +14,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.user2.PharmacyProduct.Model.Prevalent.Prevalent;
+
 import com.example.user2.fruitsvegetables.R;
 import com.google.android.gms.tasks.Continuation;
 import com.google.android.gms.tasks.OnCompleteListener;

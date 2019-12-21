@@ -10,7 +10,7 @@
 
     android:layout_height="match_parent"
 
-    tools:context="com.example.user2.fruitsvegetables.com.example.user2.PharmacyProduct.FruitDetials">
+    tools:context="com.example.user2.PharmacyProduct.productDetail">
 
 
 

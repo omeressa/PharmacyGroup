@@ -1,5 +1,6 @@
 package com.example.user2.PharmacyProduct;
 
+
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -11,6 +12,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
 import com.example.user2.PharmacyProduct.Model.Prevalent.Prevalent;
 import com.example.user2.PharmacyProduct.Model.Users;
 import com.example.user2.fruitsvegetables.R;
@@ -57,7 +59,7 @@ public class LoginActivity extends AppCompatActivity
             @Override
             public void onClick(View view)
             {
-                    LoginUser();
+                LoginUser();
             }
         });
 

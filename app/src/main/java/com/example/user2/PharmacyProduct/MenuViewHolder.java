@@ -3,6 +3,7 @@ package com.example.user2.PharmacyProduct;
 
 
 
+
 import android.support.v7.widget.RecyclerView;
 
 import android.view.View;
@@ -26,6 +27,7 @@ public class MenuViewHolder extends RecyclerView.ViewHolder implements View.OnCl
 
 
     private AdapterView.OnItemClickListener itemClickListener;
+
 
 
 
@@ -63,7 +65,7 @@ public class MenuViewHolder extends RecyclerView.ViewHolder implements View.OnCl
 
     {
 
-       //temClickListener.onItemClick(view, getAdapterPosition(), false);
+        //temClickListener.onItemClick(view, getAdapterPosition(), false);
 
     }
 

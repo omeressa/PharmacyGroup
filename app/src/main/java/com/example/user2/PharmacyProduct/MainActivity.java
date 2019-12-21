@@ -1,6 +1,7 @@
 package com.example.user2.PharmacyProduct;
 
-;
+
+
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -12,10 +13,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+
 import com.example.user2.PharmacyProduct.Model.Prevalent.Prevalent;
 import com.example.user2.PharmacyProduct.Model.Users;
-import com.example.user2.fruitsvegetables.R;
-import com.google.firebase.database.DataSnapshot;
+        import com.example.user2.fruitsvegetables.R;
+        import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
@@ -25,7 +27,9 @@ import io.paperdb.Paper;
 
 public class MainActivity extends AppCompatActivity
 {
-    private Button joinNowButton, loginButton;
+    Button joinNowButton, loginButton;
+    // private Button joinNowButton, loginButton;
+
     private ProgressDialog loadingBar;
     public static TextView tv;
 

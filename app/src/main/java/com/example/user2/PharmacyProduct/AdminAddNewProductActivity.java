@@ -12,8 +12,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
-
-import com.example.user2.fruitsvegetables.R;
 import com.google.android.gms.tasks.Continuation;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
@@ -24,14 +22,17 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
+import com.example.user2.fruitsvegetables.R;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.HashMap;
 
+
+
 public class AdminAddNewProductActivity extends AppCompatActivity {
     private String CategoryName, Description, Price, Pname, saveCurrentDate, saveCurrentTime;
-    private Button AddNewProductButton;
+    Button AddNewProductButton;
     private ImageView InputProductImage;
     private EditText InputProductName, InputProductDescription, InputProductPrice;
     private static final int GalleryPick = 1;
@@ -210,3 +211,4 @@ public class AdminAddNewProductActivity extends AppCompatActivity {
                 });
     }
 }
+

@@ -1,11 +1,9 @@
 package com.example.user2.PharmacyProduct;
 
-import android.app.Activity;
+
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.View;
-import android.widget.TextView;
 
 import com.example.user2.fruitsvegetables.R;
 import com.google.firebase.database.DatabaseReference;
@@ -19,8 +17,8 @@ public class OrderActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
-    super.onCreate(savedInstanceState);
-    setContentView(R.layout.order);
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.order);
 
 
 

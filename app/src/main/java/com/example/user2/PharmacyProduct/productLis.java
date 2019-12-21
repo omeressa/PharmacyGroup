@@ -1,5 +1,6 @@
 package com.example.user2.PharmacyProduct;
 
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -12,7 +13,7 @@ import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-//FruitList;
+//List;
 public class productLis extends AppCompatActivity {
 
 
@@ -67,7 +68,7 @@ public class productLis extends AppCompatActivity {
 
         if(!categoryId.isEmpty() && categoryId != null){
 
-           // loadListFood(categoryId);
+            // loadListFood(categoryId);
 
         }
 
